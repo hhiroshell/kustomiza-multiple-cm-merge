@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- ../layer1
+
+configMapGenerator:
+- name: cm-test-merged
+  behavior: merge
+  literals:
+  - key2=value2
