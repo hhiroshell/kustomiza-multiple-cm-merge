@@ -1,1 +1,1 @@
-# kustomiza-multiple-cm-merge
+# kustomiz-multiple-cm-merge
